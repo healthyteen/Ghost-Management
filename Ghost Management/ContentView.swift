@@ -39,6 +39,14 @@ struct ContentView: View {
                         .fontWeight(.heavy)
                 }
                 .toolbarBackground(barColor, for: .tabBar)
+            Cloudflare()
+                .tabItem() {
+                    Image(systemName: "cloud.fill")
+                    Text("Cloudflare")
+                        .font(tabBarFontSize)
+                        .fontWeight(.heavy)
+                }
+                .toolbarBackground(barColor, for: .tabBar)
         }
     }
     
