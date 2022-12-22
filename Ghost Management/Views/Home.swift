@@ -29,17 +29,17 @@ struct Home: View {
                 Rectangle()
                     .cornerRadius(20)
                     .foregroundColor(Color(.black))
-                    .frame(width: 140, height: 50, alignment: .bottomLeading)
+                    .frame(width: 132.5, height: 45, alignment: .bottomLeading)
                     .frame(width: rectangleWidth, height: rectangleHeight, alignment: .bottomLeading)
                     .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: rectangleAlignment)
-                    .shadow(color: Color(.black), radius: 3, x: 1, y: 1)
+                    .shadow(color: Color(.black), radius: 1, x: 1, y: 1)
                     .overlay(
                         HStack {
                             VStack {
                                 Button(action: {
                                     self.webView.goBack(); HapticManager.instance.impact(style: .soft)
 }) {
-                                    Image(systemName: "arrowshape.left.fill")
+                                    Image(systemName: "chevron.left.square.fill")
                                         .font(imageFont)
                                         .foregroundColor(imageColor)
                                         .scaledToFit()
@@ -68,7 +68,7 @@ struct Home: View {
                                 Button(action: {
                                     self.webView.goBack(); HapticManager.instance.impact(style: .soft)
                                 }){
-                                    Image(systemName: "arrowshape.right.fill")
+                                    Image(systemName: "chevron.right.square.fill")
                                         .font(imageFont)
                                         .foregroundColor(imageColor)
                                         .scaledToFit()
@@ -79,11 +79,11 @@ struct Home: View {
                             }
                         }
                         .frame(maxWidth: .infinity, maxHeight: .infinity, alignment: rectangleAlignment)
-                        .padding(.bottom, 13.5)
-                        .padding(.horizontal, 16.5)
+                        .padding(.bottom, 12)
+                        .padding(.horizontal, 12)
                     )
-                    .padding(.bottom, 25)
-                    .padding(.horizontal, 25)
+                    .padding(.bottom, 10)
+                    .padding(.horizontal, 10)
             )
         }
     }
