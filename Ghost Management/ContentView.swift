@@ -10,84 +10,35 @@ import WebKit
 
 // Tab bar
 let tabBarFontSize: Font = .caption
-let tabBarColor: Color = tabBarColor
+let barColor: Color = Color("barColor")
 
 struct ContentView: View {
     var body: some View {
         TabView {
-            if #available(iOS 16.0, *) {
-                Home()
-                    .tabItem() {
-                        Image(systemName: "house.fill")
-                        Text("Home")
-                            .font(tabBarFontSize)
-                            .fontWeight(.heavy)
-                    }
-                    .toolbarBackground(tabBarColor, for: .tabBar)
-            } else {
-                // Fallback on earlier versions
-            }
-//            if #available(iOS 16.0, *) {
-//                DALLE()
-//                    .tabItem() {
-//                        Image(systemName: "photo.fill")
-//                        Text("DALL•E - 2")
-//                            .font(tabBarFontSize)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-//            } else {
-//                // Fallback on earlier versions
-//            }
-//                SocialMedia()
-//                    .tabItem() {
-//                        Image(systemName: "hammer")
-//                        Text("Social Media")
-//                            .foregroundColor(Color.black)
-//                            .font(tabBarFontSize)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-//            ChatGPT()
-//                    .tabItem() {
-//                        Image(systemName: "camera.fill")
-//                        Text("Social Media")
-//                            .font(tabBarFontSize)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-//                ChatGPT()
-//                    .tabItem() {
-//                        Image(systemName: "person.crop.circle")
-//                        Text("Contact Us")
-//                            .font(tabBarFontSize)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-//                AboutMe()
-//                    .tabItem() {
-//                        Image(systemName: "person.circle")
-//                        Text("About")
-//                            .font(.caption)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-//                ChatGPT()
-//                    .tabItem() {
-//                        Image(systemName: "hammer")
-//                        Text("Development")
-//                            .font(tabBarFontSize)
-//                            .fontWeight(.heavy)
-//                    }
-//                    .toolbarBackground(tabBarColor, for: .tabBar)
-
-            //            WaterTracker()
-            //                .tabItem() {
-            //                    Image(systemName: "glass")
-            //                    Text("Water Tracker (Incomplete)")
-            //                }
-            //                .toolbarBackground(tabBarColor, for: .tabBar)
-
+            Dashboard()
+                .tabItem() {
+                    Image(systemName: "list.bullet.clipboard")
+                    Text("Dashboard")
+                        .font(tabBarFontSize)
+                        .fontWeight(.heavy)
+                }
+                .toolbarBackground(barColor, for: .tabBar)
+            LiveSite()
+                .tabItem() {
+                    Image(systemName: "power")
+                    Text("Live Site")
+                        .font(tabBarFontSize)
+                        .fontWeight(.heavy)
+                }
+                .toolbarBackground(barColor, for: .tabBar)
+            Documentation()
+                .tabItem() {
+                    Image(systemName: "doc.text")
+                    Text("Documentation")
+                        .font(tabBarFontSize)
+                        .fontWeight(.heavy)
+                }
+                .toolbarBackground(barColor, for: .tabBar)
         }
     }
     
