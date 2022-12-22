@@ -11,6 +11,10 @@
 		D4C8372C2953E14800AD38F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8372B2953E14800AD38F2 /* ContentView.swift */; };
 		D4C8372E2953E14900AD38F2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C8372D2953E14900AD38F2 /* Assets.xcassets */; };
 		D4C837322953E14900AD38F2 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = D4C837312953E14900AD38F2 /* Preview Assets.xcassets */; };
+		D4C837662953E2C300AD38F2 /* Home.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C837652953E2C300AD38F2 /* Home.swift */; };
+		D4C837682953E32500AD38F2 /* ButtonModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C837672953E32500AD38F2 /* ButtonModel.swift */; };
+		D4C8376A2953E32B00AD38F2 /* Haptics.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C837692953E32B00AD38F2 /* Haptics.swift */; };
+		D4C8376C2953E33400AD38F2 /* WebView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8376B2953E33400AD38F2 /* WebView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -20,6 +24,10 @@
 		D4C8372D2953E14900AD38F2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		D4C8372F2953E14900AD38F2 /* Ghost_Management.entitlements */ = {isa = PBXFileReference; lastKnownFileType = text.plist.entitlements; path = Ghost_Management.entitlements; sourceTree = "<group>"; };
 		D4C837312953E14900AD38F2 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		D4C837652953E2C300AD38F2 /* Home.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Home.swift; sourceTree = "<group>"; };
+		D4C837672953E32500AD38F2 /* ButtonModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ButtonModel.swift; sourceTree = "<group>"; };
+		D4C837692953E32B00AD38F2 /* Haptics.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Haptics.swift; sourceTree = "<group>"; };
+		D4C8376B2953E33400AD38F2 /* WebView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = WebView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -54,6 +62,8 @@
 			children = (
 				D4C837292953E14800AD38F2 /* Ghost_ManagementApp.swift */,
 				D4C8372B2953E14800AD38F2 /* ContentView.swift */,
+				D4C837632953E2A300AD38F2 /* Views */,
+				D4C837642953E2A700AD38F2 /* ViewModels */,
 				D4C8372D2953E14900AD38F2 /* Assets.xcassets */,
 				D4C8372F2953E14900AD38F2 /* Ghost_Management.entitlements */,
 				D4C837302953E14900AD38F2 /* Preview Content */,
@@ -67,6 +77,24 @@
 				D4C837312953E14900AD38F2 /* Preview Assets.xcassets */,
 			);
 			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		D4C837632953E2A300AD38F2 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				D4C837652953E2C300AD38F2 /* Home.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		D4C837642953E2A700AD38F2 /* ViewModels */ = {
+			isa = PBXGroup;
+			children = (
+				D4C837672953E32500AD38F2 /* ButtonModel.swift */,
+				D4C837692953E32B00AD38F2 /* Haptics.swift */,
+				D4C8376B2953E33400AD38F2 /* WebView.swift */,
+			);
+			path = ViewModels;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -140,6 +168,10 @@
 			buildActionMask = 2147483647;
 			files = (
 				D4C8372C2953E14800AD38F2 /* ContentView.swift in Sources */,
+				D4C837682953E32500AD38F2 /* ButtonModel.swift in Sources */,
+				D4C8376A2953E32B00AD38F2 /* Haptics.swift in Sources */,
+				D4C8376C2953E33400AD38F2 /* WebView.swift in Sources */,
+				D4C837662953E2C300AD38F2 /* Home.swift in Sources */,
 				D4C8372A2953E14800AD38F2 /* Ghost_ManagementApp.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
