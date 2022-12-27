@@ -9,6 +9,7 @@
 /* Begin PBXBuildFile section */
 		D46A994929540D0F00FA2713 /* LiveSite.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A994829540D0F00FA2713 /* LiveSite.swift */; };
 		D46A994B29540D1600FA2713 /* Documentation.swift in Sources */ = {isa = PBXBuildFile; fileRef = D46A994A29540D1600FA2713 /* Documentation.swift */; };
+		D480F654295A773200800E81 /* ZeroTrust.swift in Sources */ = {isa = PBXBuildFile; fileRef = D480F653295A773200800E81 /* ZeroTrust.swift */; };
 		D4AEBB7F29551CD900D0A903 /* Cloudflare.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4AEBB7E29551CD900D0A903 /* Cloudflare.swift */; };
 		D4C8372A2953E14800AD38F2 /* Ghost_ManagementApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C837292953E14800AD38F2 /* Ghost_ManagementApp.swift */; };
 		D4C8372C2953E14800AD38F2 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = D4C8372B2953E14800AD38F2 /* ContentView.swift */; };
@@ -24,6 +25,7 @@
 /* Begin PBXFileReference section */
 		D46A994829540D0F00FA2713 /* LiveSite.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = LiveSite.swift; sourceTree = "<group>"; };
 		D46A994A29540D1600FA2713 /* Documentation.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Documentation.swift; sourceTree = "<group>"; };
+		D480F653295A773200800E81 /* ZeroTrust.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ZeroTrust.swift; sourceTree = "<group>"; };
 		D4AEBB7E29551CD900D0A903 /* Cloudflare.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Cloudflare.swift; sourceTree = "<group>"; };
 		D4C837262953E14800AD38F2 /* Ghost Management.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Ghost Management.app"; sourceTree = BUILT_PRODUCTS_DIR; };
 		D4C837292953E14800AD38F2 /* Ghost_ManagementApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Ghost_ManagementApp.swift; sourceTree = "<group>"; };
@@ -95,6 +97,7 @@
 				D46A994829540D0F00FA2713 /* LiveSite.swift */,
 				D46A994A29540D1600FA2713 /* Documentation.swift */,
 				D4AEBB7E29551CD900D0A903 /* Cloudflare.swift */,
+				D480F653295A773200800E81 /* ZeroTrust.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -184,6 +187,7 @@
 				D4C8372C2953E14800AD38F2 /* ContentView.swift in Sources */,
 				D4C837682953E32500AD38F2 /* ButtonModel.swift in Sources */,
 				D4C8376A2953E32B00AD38F2 /* Haptics.swift in Sources */,
+				D480F654295A773200800E81 /* ZeroTrust.swift in Sources */,
 				D4C8376C2953E33400AD38F2 /* WebView.swift in Sources */,
 				D4AEBB7F29551CD900D0A903 /* Cloudflare.swift in Sources */,
 				D4C837662953E2C300AD38F2 /* Dashboard.swift in Sources */,

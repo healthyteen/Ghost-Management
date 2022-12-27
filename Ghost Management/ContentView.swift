@@ -47,6 +47,14 @@ struct ContentView: View {
                         .fontWeight(.heavy)
                 }
                 .toolbarBackground(barColor, for: .tabBar)
+            ZeroTrust()
+                .tabItem() {
+                    Image(systemName: "lock.fill")
+                    Text("Zero Trust")
+                        .font(tabBarFontSize)
+                        .fontWeight(.heavy)
+                }
+                .toolbarBackground(barColor, for: .tabBar)
         }
     }
     
