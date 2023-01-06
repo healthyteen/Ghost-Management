@@ -1,25 +1,12 @@
 //
-//  Ghost_ManagementApp.swift
+//  AppDelegate.swift
 //  Ghost Management
 //
-//  Created by Skyler Szijjarto on 12/21/22.
+//  Created by Skyler Szijjarto on 1/3/23.
 //
 
-import SwiftUI
 import Firebase
 import GoogleMobileAds
-
-@main
-struct Ghost_ManagementApp: App {
-    var body: some Scene {
-        WindowGroup {
-            ContentView()
-        }
-    }
-}
-
-
-...
 
 @UIApplicationMain
 class AppDelegate: UIResponder, UIApplicationDelegate {
